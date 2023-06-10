@@ -24,19 +24,19 @@ if (isset($_POST['submit'])) {
 
     <label for="name">Имя:</label>
 
-    <input type="text" name="name" required>
+    <input type="text" name="name">
 
     <br>
 
     <label for="age">Возраст:</label>
 
-    <input type="number" name="age" min="18" max="100" required>
+    <input type="number" name="age">
 
     <br>
 
     <label for="salary">Зарплата:</label>
 
-    <input type="number" name="salary" required>
+    <input type="number" name="salary">
 
     <br>
 
